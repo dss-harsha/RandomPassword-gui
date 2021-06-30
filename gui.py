@@ -8,7 +8,7 @@ def password():
 	symbols = string.punctuation 
 	numbers = string.digits
 
-	# purpose = enter_use.get()
+	
 
 	letters_no = a.get()     # enter required no of letters,digits,symbols
 	symbols_no = b.get()
@@ -44,15 +44,15 @@ c = IntVar()
 d = StringVar()
 
 
-# use = Label(root,text="Where do you want to use this?").place(x=40,y=60)
+
 Letters= Label(root,text="Enter no of letters").place(x=40,y=160)
 Symbols= Label(root,text="Enter no of symbols").place(x=40,y=260)
 Numbers= Label(root,text="Enter no of Numbers").place(x=40,y=360)
 submit = Button(root,text="Run",command=submit).place(x=400,y=760)
-# location = Label(root,text="Enter file location").place(x=40,y=460)
+
 pword = Label(root,text="Password").place(x=40,y=460)
 
-# enter_use = Entry(root,width=30).place(x=500,y=60)
+
 enter_letters= Entry(root,width=30,textvariable=a).place(x=500,y=160)
 enter_symbols= Entry(root,width=30,textvariable=b).place(x=500,y=260)
 enter_numbers= Entry(root,width=30,textvariable=c).place(x=500,y=360)
